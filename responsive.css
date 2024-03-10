@@ -1,40 +1,63 @@
-@media screen and (max-width: 720px) {
-    nav {
-        padding: 20px 5%;
-    }
+@media only screen and (max-width: 600px) {
 
-    nav ul li {
-        margin-left: 10px;
-    }
+nav {
+flex-direction: column;
+}
 
-    .content {
-        left: 5%;
-    }
+.logo {
+margin-bottom: 10px;
+}
 
-    .about img {
-        width: 100%;
-        max-width: 250px;
-    }
+nav ul {
+flex-direction: column;
+}
 
-    .about-text {
-        width: calc(100% - 20px); 
-        margin-top: -30px;
-    }
+nav ul li {
+margin: 5px 0;
+}
 
-    .about-text p {
-        width: 100%;
-    }
+.content {
+position: static;
+transform: translateY(0);
+text-align: center;
+}
 
-    .main {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.main {
+flex-direction: column;
+}
 
-    .certificate-container img {
-        width: 100px;
-    }
+.about img {
+width: 100%;
+margin-bottom: 20px;
+}
 
-    footer p:nth-child(2) {
-        width: auto;
-    }
+.about-text {
+width: 100%;
+}
+
+.education-info {
+flex-direction: column;
+}
+
+.education-box {
+width: 90%;
+margin: 10px auto;
+}
+
+footer {
+flex-direction: column;
+}
+
+footer p:nth-child(2) {
+width: 90%;
+}
+
+.sosial {
+flex-direction: column;
+}
+
+.sosial a {
+margin: 10px 0;
+}
+
 }
