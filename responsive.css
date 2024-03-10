@@ -1,63 +1,36 @@
 @media only screen and (max-width: 600px) {
 
 nav {
-flex-direction: column;
-}
-
-.logo {
-margin-bottom: 10px;
-}
-
-nav ul {
-flex-direction: column;
-}
-
-nav ul li {
-margin: 5px 0;
+padding: 10px;
 }
 
 .content {
-position: static;
-transform: translateY(0);
-text-align: center;
+left: 10px;
+right: 10px;
 }
 
 .main {
-flex-direction: column;
-}
-
-.about img {
-width: 100%;
-margin-bottom: 20px;
+padding: 0 10px;
 }
 
 .about-text {
-width: 100%;
+margin: 0 10px;
 }
 
 .education-info {
-flex-direction: column;
+padding: 0 10px;
 }
 
 .education-box {
-width: 90%;
-margin: 10px auto;
+padding: 10px;
 }
 
 footer {
-flex-direction: column;
+padding: 0 10px;
 }
 
 footer p:nth-child(2) {
-width: 90%;
-}
-
-.sosial {
-flex-direction: column;
-}
-
-.sosial a {
-margin: 10px 0;
+padding: 0 10px;
 }
 
 }
