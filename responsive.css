@@ -1,36 +1,45 @@
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 20px 5%;
+    }
 
-body {
-font-size: 14px;
-}
+    nav ul li {
+        margin-left: 10px;
+    }
 
-h1 {
-font-size: 30px;
-}
+    .content {
+        left: 5%;
+    }
 
-h2 {
-font-size: 24px;
-}
+    .about img {
+        width: 100%;
+        max-width: 250px;
+    }
 
-h3 {
-font-size: 18px;
-}
+    .about-text {
+        width: calc(100% - 20px);
+        margin-top: -30px;
+        padding: 0 10px;
+    }
 
-p {
-font-size: 14px;
-}
+    .about-text p {
+        width: 100%;
+    }
 
-.education-box {
-width: 95%;
-}
+    .main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-.education-header h3,
-.education-header p {
-font-size: 16px;
-}
+    .certificate-container {
+        overflow-x: auto;
+    }
 
-footer p {
-font-size: 14px;
-}
+    .certificate-container img {
+        width: 100px;
+    }
 
+    footer p:nth-child(2) {
+        width: auto;
+    }
 }
