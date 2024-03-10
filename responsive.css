@@ -12,8 +12,8 @@
     }
 
     .about img {
-        width: 100%;
-        max-width: 250px;
+        max-width: 100%;
+        height: auto;
     }
 
     .about-text {
@@ -43,3 +43,4 @@
         width: auto;
     }
 }
+
