@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+    .content {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .about {
+        padding: 40px 20px;
+    }
+
+    .about img {
+        max-width: 80%;
+    }
+
+    .about-text h2 {
+        font-size: 25px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .education {
+        padding: 40px 20px;
+    }
+
+    .title h2 {
+        font-size: 25px;
+    }
+
+    .education-item i {
+        font-size: 20px;
+    }
+
+    .education-header h3 {
+        font-size: 18px;
+    }
+
+    .education-details p {
+        font-size: 16px;
+    }
+
+    .certificate-container {
+        padding: 10px;
+    }
+
+    .certificate-container img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .sosial a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        margin: 10px 5px;
+    }
+}
